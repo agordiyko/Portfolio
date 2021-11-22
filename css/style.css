@@ -3,9 +3,14 @@
 @import url("https://fonts.googleapis.com/css2?family=Caveat:wght@400;500;600;700&display=swap");
 
 body {
-	color: #222;
+	color: #fff;
+	/* color: #222; */
 	font-weight: 400;
-	background: rgb(209, 209, 209);
+	/* background: rgb(209, 209, 209); */
+	background: #000428;  /* fallback for old browsers */
+	background: -webkit-linear-gradient(to right, #004e92, #000428);  /* Chrome 10-25, Safari 5.1-6 */
+	background: linear-gradient(to right, #004e92, #000428); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
 	font-family: "Nunito", sans-serif;
 	/* font-family: "Caveat", cursive; */
 	font-size: 18px;
